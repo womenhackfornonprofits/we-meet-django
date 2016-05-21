@@ -2,9 +2,9 @@
 ***Web App that displays curated places/cafes to Hack in London***	
 # Content
 
-1. [Description](#Description)
-4. [Setup](#Setup)
-5. [Contributing](#Contributing)
+1. [Description](#description)
+4. [Setup](#setup)
+5. [Contributing](#contributing)
 
 
 # Description
