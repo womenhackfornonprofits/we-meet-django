@@ -29,7 +29,8 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 - [Ichi](https://github.com/Icicleta) - Back End
 - [lucy](https://github.com/LucyMac) - Front-end
 - [Raquel](https://github.com/raquel-ucl) - Back End, Front End
-- [Nandhini](https://githum.com/Nandhini31) - Back End, Front End
+- [Nandhini](https://github.com/Nandhini31) - Back End, Front End
+
 # Setup
 ## Tools
 1. **Terminal**: [iTerm2](https://www.iterm2.com/) (MacOSX), [Terminator](http://gnometerminator.blogspot.co.uk/p/introduction.html) (Linux) or use your preffered one.
