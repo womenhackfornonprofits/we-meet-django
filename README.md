@@ -38,6 +38,14 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 ## Dev Enviroment Setup
 1. [Install Git](http://git-scm.com/download/mac)
 2. Clone the repo: `git clone git@github.com:womenhackfornonprofits/london-cafes-django.git`
+3. Get [Virtual Env](https://virtualenv.pypa.io/en/latest/installation.html) 
+4. Get [virtualend wrapper](http://virtualenvwrapper.readthedocs.org/en/latest/install.html)
+5. Create a new virtual enviroment for the project `mkvirtualenv london_cafes`
+6. Use this enviroment or change to this from another by using: `workon london_cafes`
+7. Go to project folder: `pip install -r requirements.txt`
+8. Get [Postgres](http://www.postgresql.org/)
+9. Create empty db for now locally, `createdb london_cafes`
+10. Start the server: `python manage.py runserver`
 
 
 # Contributing
