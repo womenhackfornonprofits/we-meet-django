@@ -29,6 +29,7 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 - [Ichi](https://github.com/Icicleta) - Back End
 - [lucy](https://github.com/LucyMac) - Front-end
 - [Raquel](https://github.com/raquel-ucl) - Back End, Front End
+- [Nandhini](https://github.com/Nandhini31) - Back End, Front End
 
 # Setup
 ## Tools
