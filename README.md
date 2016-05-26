@@ -27,6 +27,7 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 ## Team
 - [Bibiana](https://github.com/BibianaC) - Back End
 - [Ichi](https://github.com/Icicleta) - Back End
+- [Karen](https://github.com/neraks) - Front End
 - [Lili](https://github.com/lili2311) - PM, Front End, Back End
 - [Lucy](https://github.com/LucyMac) - Front-end
 - [Nandhini](https://github.com/Nandhini31) - Back End, Front End
