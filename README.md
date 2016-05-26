@@ -25,6 +25,7 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 - Slack for group chats/standups etc
 
 ## Team
+- [Bibiana](https://github.com/BibianaC) - Back End
 - [Ichi](https://github.com/Icicleta) - Back End
 - [Lili](https://github.com/lili2311) - PM, Front End, Back End
 - [Lucy](https://github.com/LucyMac) - Front-end
