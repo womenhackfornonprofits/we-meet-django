@@ -33,6 +33,7 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 - [Nandhini](https://github.com/Nandhini31) - Back End, Front End
 - [Natalia](https://github.com/natalia-z) - Front End
 - [Raquel](https://github.com/raquel-ucl) - Back End, Front End
+- [Nuria](https://github.com/nuria-gs) - Learning
 
 # Setup
 ## Tools
