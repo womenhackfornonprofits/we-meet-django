@@ -1,4 +1,4 @@
-# London Cafes Django Project
+# We Meet: London Cafes Django Project
 ***Web App that displays curated places/cafes to Hack in London***	
 # Content
 
@@ -26,6 +26,7 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 
 ## Team
 - [Bibiana](https://github.com/BibianaC) - Back End
+- [Emiliana](https://github.com/emilianas) - Back End, Front End
 - [Ichi](https://github.com/Icicleta) - Back End
 - [Karen](https://github.com/neraks) - Front End
 - [Lili](https://github.com/lili2311) - PM, Front End, Back End
@@ -33,8 +34,10 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 - [Nandhini](https://github.com/Nandhini31) - Back End, Front End
 - [Natalia](https://github.com/natalia-z) - Front End
 - [Nori] (https://github.com/denesnori) - Back End, Front End
-- [Raquel](https://github.com/raquel-ucl) - Back End, Front End
 - [Nuria](https://github.com/nuria-gs) - Learning
+- [Raquel](https://github.com/raquel-ucl) - Back End, Front End
+
+
 
 # Setup
 ## Tools
@@ -78,7 +81,7 @@ Each cafe will be handpicked and “features” ranked like wifi signal, how gre
 # Contributing
 Please follow a few guidelines in order to contribute to the project:
 
-1. Pick an issue in the [backlog](https://github.com/womenhackfornonprofits/london-cafes-django/issues) and assign it to yourself.
+1. Pick an issue in the [backlog](https://github.com/womenhackfornonprofits/we-meet-django/issues) and assign it to yourself.
 2. Always create a new branch `git branch branch_name` and all changes you make should be in that branch.
 3.  Make the changes needed then save and commit them:
 	- Use `git status` to see what changes there are that can be committed.
@@ -96,7 +99,7 @@ In order to raise a Pull Request with your changes:
 
 - Save and commit your changes
 - Push your changes and create a pull request: `git push origin your_branch_name`
-- Go to the [repo](https://github.com/womenhackfornonprofits/london-cafes-django) and you should see a green button "Raise a Pull Request"
+- Go to the [repo](https://github.com/womenhackfornonprofits/we-meet-django) and you should see a green button "Raise a Pull Request"
 ![](https://help.github.com/assets/images/help/pull_requests/pull-request-click-to-create.png)
 - Describe all the changes you have made in details and save.
 
