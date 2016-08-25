@@ -1,10 +1,25 @@
-$main-body-background-clr: #fcfcfc;
-
-
-@import "normalize";
+@import 'normalize';
+@import 'forms';
+@import 'buttons';
+@import 'helpers';
 @import "partials/base";
 @import "partials/footer";
+@import 'cafe-locator';
 
-body {
-	$main-body-background-clr: #fcfcfc;
+
+
+html {
+	background: #fcfcfc;
 }
+
+.container {
+	margin: 0 auto;
+	max-width: 50em;
+}
+
+
+// temporary TO DO
+h1, h2 {
+	text-align: center;
+}
+

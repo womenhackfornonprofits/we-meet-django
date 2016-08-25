@@ -12,27 +12,18 @@ module.exports = function(grunt) {
         cssmin: {
             combine: {
                 files: {
-                    '	../london_cafes/static/styles/styles.css': ['css/styles.css']
+                    '../london_cafes/static/styles/styles.css': ['css/styles.css']
                 }
             }
         },
         //------- SASS -------//
         sass: {
-          dev: {
-             options: {
-               style: 'expanded',
-               loadPath: 'node_modules/normalize-scss/sass/'
-             },
-           },
-          dist: {
-            options: {
-                style: 'compressed',
-                loadPath: 'node_modules/normalize-scss/sass/'
-            },
-            files: {
-                'css/styles.css': 'sass/styles.scss'
+            dist: {
+                files: {
+                    //'css/styles.css': 'sass/styles.scss'
+                    '../london_cafes/static/styles/styles.css': 'sass/styles.scss'
+                }
             }
-          }
         },
         //------- Watch SASS -> CSS -------//
         watch: {
