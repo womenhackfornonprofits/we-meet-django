@@ -1,0 +1,58 @@
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  margin: .5em 0;
+  padding: 1em;
+  border: 1px solid #ccc;
+  line-height: 1em; }
+
+.button {
+  margin: .5em 0;
+  padding: 1em;
+  background: pink;
+  border: 0;
+  line-height: 1em; }
+
+.hidden {
+  display: none; }
+
+.visually-hidden {
+  height: 0;
+  width: 0;
+  line-height: 0;
+  color: transparent;
+  background: transparent; }
+
+.cafe-locator {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .cafe-locator__submit {
+    display: inline-block;
+    flex: 0 0 6em;
+    color: #3c3c3c;
+    font-weight: bold;
+    margin-left: 1em; }
+  .cafe-locator__search {
+    display: inline-block;
+    max-width: 20em;
+    flex: auto; }
+
+html {
+  background: #fcfcfc; }
+
+.container {
+  margin: 0 auto;
+  max-width: 50em; }
+
+h1, h2 {
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
