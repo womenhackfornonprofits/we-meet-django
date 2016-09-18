@@ -8,22 +8,23 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+
         //------- CSS Minify -------//
         cssmin: {
-            combine: {
-                files: {
-                    '../london_cafes/static/styles/styles.css': ['css/styles.css']
-                }
+          combine: {
+            files: {
+              '../london_cafes/static/styles/styles.css': ['css/styles.css']
             }
+          }
         },
+
         //------- SASS -------//
         sass: {
-            dist: {
-                files: {
-                    //'css/styles.css': 'sass/styles.scss'
-                    '../london_cafes/static/styles/styles.css': 'sass/styles.scss'
-                }
+          dist: {
+            files: {
+              'css/styles.css': 'sass/styles.scss'
             }
+          }
         },
         //------- Watch SASS -> CSS -------//
         watch: {
@@ -59,5 +60,5 @@ module.exports = function(grunt) {
     });
 
 
-    grunt.registerTask('default', ['sass', 'cssmin', 'uglify', 'copy:img']);
+    grunt.registerTask('default', ['sass', 'cssmin', 'uglify', 'copy:img', 'watch']);
 }
