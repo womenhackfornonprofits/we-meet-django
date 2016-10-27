@@ -12,9 +12,19 @@ html {
 	background: #fcfcfc;
 }
 
+body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 .container {
 	margin: 0 auto;
 	max-width: 50em;
+}
+
+.content_wrapper{
+	flex: 1;
 }
 
 
