@@ -2,9 +2,27 @@
 {% load static %}
 
 {% block layout %}
+
     <div class="content_wrapper">
-        <header>
-        </header>
+      <header class="header">
+        <div class="header__logo">
+          <img class="header__img" src="">
+        </div>
+      
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__link">
+               <a href="/" title="">Home</a>
+            </li>
+            <li class="header__link">
+              <a href="#" title="">Search</a>
+            </li>
+            <li class="header__link">
+              <a href="#" title="">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
     
     {% block main %}
     {% endblock %}
