@@ -9,16 +9,6 @@ RATING_OPTIONS = (
     (5, 'Excellent'),
 )
 
-
-class Address(models.Model):
-    street = models.TextField()
-    postcode = models.TextField()
-    city = models.TextField()
-
-    class Meta:
-        verbose_name_plural = 'addresses'
-
-
 class Ratings(models.Model):
     rating = models.CharField(
         max_length=30,
@@ -44,7 +34,11 @@ class Wifi(Ratings):
 class Cafe(models.Model):
     name = models.CharField(max_length=200)
     description = models.CharField(max_length=200)
-    address = models.ForeignKey(Address)
+    address1 = models.CharField(max_length=200)
+    address2 = models.CharField(max_length=200)
+    address3 = models.CharField(max_length=200)
+    city = models.CharField(max_length=200)
+    post_code = models.CharField(max_length=30)
     atmosphere_rating = models.ForeignKey(Atmosphere)
     coffee_rating = models.ForeignKey(Coffee)
     wifi_rating = models.ForeignKey(Wifi)
