@@ -1,5 +1,4 @@
 from django.db import models
-from django.utils import timezone
 
 RATING_OPTIONS = (
     (1, 'Not Good'),
@@ -15,22 +14,6 @@ class Ratings(models.Model):
         choices=RATING_OPTIONS,
         default=5)
 
-    class Meta:
-        abstract = True
-
-
-class Atmosphere(Ratings):
-    pass
-
-
-class Coffee(Ratings):
-    pass
-
-
-class Wifi(Ratings):
-    pass
-
-
 class Cafe(models.Model):
     name = models.CharField(max_length=200)
     description = models.CharField(max_length=200)
@@ -39,6 +22,6 @@ class Cafe(models.Model):
     address3 = models.CharField(max_length=200)
     city = models.CharField(max_length=200)
     post_code = models.CharField(max_length=30)
-    atmosphere_rating = models.ForeignKey(Atmosphere)
-    coffee_rating = models.ForeignKey(Coffee)
-    wifi_rating = models.ForeignKey(Wifi)
+    atmosphere_rating = models.ForeignKey(Ratings, related_name="atmosphere_rating")
+    coffee_rating = models.ForeignKey(Ratings, related_name="coffee_rating")
+    wifi_rating = models.ForeignKey(Ratings, related_name="wifi_rating")
