@@ -16,6 +16,7 @@ class Ratings(models.Model):
 
 class Cafe(models.Model):
     name = models.CharField(max_length=200)
+    deleted = models.BooleanField(default=False)
     description = models.CharField(max_length=200)
     address1 = models.CharField(max_length=200)
     address2 = models.CharField(max_length=200)
