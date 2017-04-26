@@ -1,5 +1,24 @@
 from django.db import models
 
+class CafeManager(models.Manager):
+    def atmosphere_exact_rating(self, rating):
+        return self.filter(atmosphere_rating=rating)
+
+    def coffee_exact_rating(self, rating):
+        return self.filter(coffee_rating=rating)
+
+    def wifi_exact_rating(self, rating):
+        return self.filter(wifi_rating=rating)
+
+    def atmosphere_gte_rating(self, rating):
+        return self.filter(atmosphere_rating__gte=rating)
+
+    def coffee_gte_rating(self, rating):
+        return self.filter(coffee_rating__gte=rating)
+
+    def wifi_gte_rating(self, rating):
+        return self.filter(wifi_rating__gte=rating)
+
 RATING_OPTIONS = (
     (1, 'Not Good'),
     (2, 'OK'),
