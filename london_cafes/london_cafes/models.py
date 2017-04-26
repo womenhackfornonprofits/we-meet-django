@@ -13,13 +13,13 @@ class CafeManager(models.Manager):
         return self.filter(wifi_rating__rating=rating)
 
     def atmosphere_gte_rating(self, rating):
-        return self.filter(atmosphere_rating__gte=rating)
+        return self.filter(atmosphere_rating__rating__gte=rating)
 
     def coffee_gte_rating(self, rating):
-        return self.filter(coffee_rating__gte=rating)
+        return self.filter(coffee_rating__rating__gte=rating)
 
     def wifi_gte_rating(self, rating):
-        return self.filter(wifi_rating__gte=rating)
+        return self.filter(wifi_rating__rating__gte=rating)
 
 RATING_OPTIONS = (
     (1, 'Not Good'),
